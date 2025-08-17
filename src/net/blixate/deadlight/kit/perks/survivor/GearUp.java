@@ -25,6 +25,12 @@ public class GearUp extends Perk {
 			return;
 		}
 		
+		// Don't apply effects to dead or spectating obsession
+		if(obsession.isSpectating()) {
+			System.err.println("GearUp: Obsession " + obsession.getName() + " is spectating, cannot apply effect");
+			return;
+		}
+		
 		// Calculate the speed effect
 		double effect = getTierProperty().getAsDouble() / 100d;
 		boolean obsessionHasGearUp = obsession.hasPerk(getRegistry());
