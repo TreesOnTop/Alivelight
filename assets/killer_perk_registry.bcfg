@@ -1,0 +1,130 @@
+[CreepingHaste]
+name: "Creeping Haste"
+description: "You can take advantage of their distractions.\n\nAfter an objective has been completed,\nyour heartbeat is inaudible for 20 seconds.\nCooldown: $1 seconds\n&8Cooldown starts after the effect ends."
+event: "OBJECTIVE_COMPLETE"
+tier: { 20, 10, 0 }
+[Looter]
+name: "Looter"
+description: "You gain $1% increased Blood.\nIncreases chances of dropping loot\nat the end of a match by 100%"
+event: "LOBBY_START"
+tier: { 25, 50, 100 }
+[Gust]
+name: "Gust"
+description: "Slowing them down speeds you up.\n\nAfter sabotaging an objective,\ngain a 25% movement increase for $1 seconds."
+event: "OBJECTIVE_BREAK"
+tier: { 5, 10, 15 }
+[Bloodhound]
+name: "Bloodhound"
+description: "You are experienced with tracking.\n\nImproves Blood visibility.\n\nTier 1: Blood size is increased.\nTier 2: Blood spawns while a player is not sprinting.\nTier 3: Full-health players spawn blood."
+event: "LOBBY_START"
+tier: { 0, 1, 2 }
+[Marked]
+name: "Marked for Death"
+description: "You feel a strange presence in the survivors.\n\nAfter killing a survivor,\nall survivors glow for $1 seconds."
+event: "SURVIVOR_DEATH"
+tier: { 4, 6, 8 }
+[Haunted]
+name: "Haunted"
+description: "The fate of the survivors haunts them.\n\nAfter an objective has been completed,\nall survivors are slowed by 15% for $1 seconds."
+event: "OBJECTIVE_COMPLETE"
+tier: { 7, 10, 12 }
+[Whispers]
+name: "Whispers"
+description: "You hear whispers coming from the darkness.\n\nSurvivors names are highlighted on\nthe sidebar when within $1 meters."
+event: "LOBBY_START"
+tier: { 6, 8, 12 }
+[NOED]
+name: "No One Escapes Death"
+description: "You can't let them escape that easy!\n\nDuring the End Game Collapse, all survivors\nare highlighted for 10 seconds.\nReviving survivors takes $1 seconds longer during the\nEnd Game Collapse."
+event: "END_GAME_COLLAPSE_START"
+tier: { 10, 12, 15 }
+[DawnsCurse]
+name: "Dawn's Curse"
+description: "Collateral damage rewards you.\n\nAfter hitting all survivors at least once,\nall objectives become blocked for $1 seconds."
+event: "SURVIVOR_HIT"
+tier: {
+	10, 20, 30
+}
+[Bloodlust]
+name: "Bloodlust"
+description: "Your lust for blood only increases.\n\nStart the match 7% slower.\nEvery kill increase your speed by $1%\nfor the rest of the match.\nDoes not give speed for respawned survivors."
+event: "SURVIVOR_DEATH"
+tier: {
+	6, 7, 8
+}
+[Decay]
+name: "Decay"
+description: "The curse brings the fragments back together.\n\nCursed Portal Fragments not being progressed,\nand above 50% progress, will start regressing\nwith +$1% regress per second.\n\nRegressing objectives cannot be damaged further."
+event: "LOBBY_START"
+tier: {
+	0, 1, 2
+}
+[Omen]
+name: "Omen"
+description: "Herd the flock for slaughter.\n\nYour terror radius is increased by $1 meters.\nYour heartbeat is no longer directional."
+event: "LOBBY_START"
+tier: {
+	4, 6, 8
+}
+[Stalker]
+name: "Stalker"
+description: "You stalk your obsession to know their\nwhereabouts.\n\nAt the start of the match, your obsession\nglows for 20 seconds and you\ngain the Undetectable effect for $1 seconds.\nHitting a survivor removes\nStalker's Undetectable effect immediately."
+event: "LOBBY_START"
+tier: {
+	30, 60, 100
+}
+[SloppyButcher]
+name: "Sloppy Butcher"
+description: "Your sloppy with your cuts and tears.\n\nHitting a survivor for the first time\napplies Mangled until the survivor is healed,\nand Hemorrhage for $1 seconds."
+event: "SURVIVOR_FIRST_HIT"
+tier: {
+	10, 20, 30
+}
+[NoWayOut]
+name: "No Way Out"
+description: "There was never a way out.\n\nHitting your obsession gives you a token,\nwith a maximum of 3 tokens.\nFor each token,\nExit Portals take $1% longer to open.\nYou cannot gain tokens after End Game Collapse.\nNo Way Out will not activate if\nyour Obsession is killed and out of play."
+event: "OBSESSION_HIT"
+tier: { 5, 7, 12 }
+[Survelliance]
+name: "Surveillance"
+description: "You're always watching to see their next move.\n\nWhen a survivor interrupts a regressing fragment,\nthat survivor glows for $1 seconds.\nCooldown: 10 seconds"
+event: "REGRESSION_STOPPED"
+tier: { 2, 4, 6 }
+[BloodWarden]
+name: "Warden"
+description: "You decide who gets to leave.\n\nAfter killing a survivor during End Game Collapse,\nthe Exit Portals are blocked for $1 seconds.\nCan only activate once per game."
+event: "SURVIVOR_DEATH"
+tier: { 10, 20, 30 }
+[SoulFinder]
+name: "Soul Finder"
+description: "The eyes are the gateway to the soul.\n\nAfter a survivor picks up a Player Soul,\nthat survivor glows for $1 seconds."
+event: "SOUL_PICKUP"
+tier: { 10, 15, 25 }
+[Rancor]
+name: "Rancor"
+description: "You and your Obsession have history.\n\nWhen an objective is completed,\nyou glow to your Obsession for $1 seconds,\nand you can see survivors for 3 seconds.\nOnce ALL objectives are completed,\nthe Obsession becomes permanently Exposed and\nwill take x2 damage until dead."
+event: "OBJECTIVE_COMPLETE"
+tier: {
+	5, 4, 3
+}
+[ThirstForBlood]
+name: "Thirst for Blood"
+description: "The taste is too pure, you need more.\n\nWhen you hit a survivor,\nyou get a token with a maximum of 10.\nDuring End Game Collapse, all tokens\nturn into $1% speed increase for the killer."
+event: "SURVIVOR_HIT"
+tier: {
+	1, 2, 3
+}
+[Combo]
+name: "Combo"
+description: "You recover from your kill quickly.\n\nAfter killing survivor,\nthere is no hit cooldown.\nGain Speed for $1 seconds afterwards."
+event: "FATAL_HIT"
+tier: {
+	20, 30, 40
+}
+[Assassin]
+name: "Assassin"
+description: "You lurk in the shadows waiting to strike.\n\nAfter hitting your Obsession,\nyou become Undetectable for $1 seconds.\nCooldown: 30 seconds"
+event: "OBSESSION_HIT"
+tier: {
+	10, 20, 30
+}

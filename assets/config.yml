@@ -1,0 +1,54 @@
+# Misc config storage
+
+global:
+    world: world
+    discord link: <discord link here>
+    enable spectating: true
+    enable join message: true
+    enable quit message: true
+    enable tip messages: true
+    enable knockdown damage: true
+ad message:
+    # Put default advertising message here.
+    default: 'Dead by Daylight | 1v4 Horror | ESCAPE THE KILLER | Join Now!'
+    # Put colored advertising message here.
+    colored: '&4Dead by Daylight &8| &cESCAPE THE KILLER &8| &41v4 Horror &8| &cJoin Now!'
+
+# All of these timers are in seconds.
+server loop:
+    tip timer: 600
+    save timer: 600
+    holo timer: 5
+    offering timer: 15
+    entity check timer: 10
+    discord check timer: 40
+# When and where to host events.
+events:
+    mystery shop:
+        enabled: true
+        weekday: sunday
+    bloodbath:
+        enabled: true
+        weekday: saturday
+    fishing:
+        enabled: true
+        weekday: wednesday
+    plague surge:
+        enabled: false
+        weekday: tuesday
+# Bot configuration.
+bot:
+    enabled: true
+    announcement channel: 1026333149371838566
+    staff message channel: 1041530744125796433
+    minecraft chat channel: -1
+    admin role id: 828167511383212042
+    looking for group channel: 1096185576937504810
+    looking for group role id: 1096185121855504465
+    looking for group cooldown: 600
+    prefix: '!'
+    token: put bot token here
+    enable dangerous commands:
+        file: false
+        filerem: false
+        announce: false

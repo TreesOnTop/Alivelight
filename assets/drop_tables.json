@@ -1,0 +1,224 @@
+{
+	"fishing": {
+		"basic": {
+			"items": {
+				"pool": [
+					{
+						"item": "MINTY_FRESH",
+						"count": 1
+					},
+					{
+						"item": "SHREAK",
+						"count": 1
+					},
+					{
+						"item": "AIR_BAG",
+						"count": 1
+					}
+				],
+				"weight": 2
+			},
+			"blood": {
+				"count": {"min": 100,"max": 300},
+				"weight": 8
+			},
+			"souls": {
+				"count": {
+					"min": 3,
+					"max": 7,
+				},
+				"weight": 5
+			},
+		},
+		"elite": {
+			"items": {
+				"pool": [
+					{
+						"item": "BANDAGE",
+						"count": 1
+					},
+					{
+						"item": "ZOOM",
+						"count": 1
+					},
+					{
+						"item": "FLASH",
+						"count": { "min": 1, "max": 3 }
+					},
+					{
+						"item": "AIR_BAG",
+						"count": { "min": 1, "max": 3 }
+					},
+					{
+						"item": "GEN_TRAP",
+						"count": { "min": 1, "max": 3 }
+					},
+					{
+						"item": "MINTY_FRESH",
+						"count": { "min": 1, "max": 3 }
+					},
+					{
+						"item": "SHREAK",
+						"count": { "min": 1, "max": 3 }
+					},
+				],
+				"weight": 7
+			},
+			"blood": {
+				"count": {
+					"min": 300,
+					"max": 500,
+				},
+				"weight": 4
+			},
+			"souls": {
+				"count": {
+					"min": 5,
+					"max": 10,
+				},
+				
+				"weight": 2
+			},
+		},
+		"legend": {
+			"items": {
+				"pool": [
+					{
+						"item": "BANDAGE",
+						"count": 1
+					},
+					{
+						"item": "ZOOM",
+						"count": 1
+					},
+					{
+						"item": "FLASH",
+						"count": { "min": 1, "max": 3 }
+					},
+					{
+						"item": "AIR_BAG",
+						"count": { "min": 1, "max": 3 }
+					},
+					{
+						"item": "GEN_TRAP",
+						"count": { "min": 1, "max": 3 }
+					},
+					{
+						"item": "MINTY_FRESH",
+						"count": { "min": 1, "max": 3 }
+					},
+					{
+						"item": "SHREAK",
+						"count": { "min": 1, "max": 3 }
+					},
+				],
+				"weight": 1
+			},
+			"blood": {
+				"count": {
+					"min": 500,
+					"max": 1200,
+				},
+				"weight": 4
+			},
+			"souls": {
+				"count": 15,
+				"weight": 4
+			},
+			"offering": {
+				"pool": [
+					{
+						"offering": "XP_BOOSTER_x2",
+						"count": 1
+					},
+					{
+						"offering": "BLOOD_BOOSTER_x2",
+						"count": 1
+					},
+					{
+						"offering": "FIRST_BORN_CHILD",
+						"count": 1
+					},
+					{
+						"offering": "DEAL_WITH_THE_DEVIL",
+						"count": 1
+					},
+					{
+						"offering": "LULLABY",
+						"count": 1
+					},
+					{
+						"offering": "BLOOD_BOOSTER_x4",
+						"count": 1
+					},
+					{
+						"offering": "XP_BOOSTER_x4",
+						"count": 1
+					},
+					{
+						"offering": "BIG_BASS",
+						"count": 1
+					},
+					{
+						"offering": "EXTERMINATOR_CREST",
+						"count": 1
+					},
+					{
+						"offering": "EXTERMINATOR_MOD_KIT",
+						"count": 1
+					},
+				],
+				"weight": 7
+			}
+		}
+	},
+	"postmatch": {
+		"global": {
+			"souls": {
+				"weight": 5,
+				"count": {
+					"max": 3,
+					"min": 1
+				}
+			},
+			"items": {
+				"weight": 30,
+				"pool": [
+					{
+						"item": "MINTY_FRESH",
+						"count": 1
+					},
+					{
+						"item": "BANDAGE",
+						"count": 1
+					},
+					{
+						"item": "SHREAK",
+						"count": 1
+					},
+					{
+						"item": "FLASH",
+						"count": 1
+					}
+				]
+			},
+			"offering": {
+				"pool": [
+					{
+						"offering": "DEAL_WITH_THE_DEVIL",
+						"count": 1
+					},
+					{
+						"offering": "XP_BOOSTER_x2",
+						"count": 1
+					},
+					{
+						"offering": "LULLABY",
+						"count": 1
+					},
+				],
+				"weight": 1
+			}
+		}
+	}
+}

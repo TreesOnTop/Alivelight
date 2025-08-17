@@ -1,0 +1,116 @@
+{
+	"killer": [
+		{
+			"text": "Play as Scrubber $ times",
+			"stat": "SCRUBBER_GAMES_PLAYED",
+			"reqs": 2
+		},
+		{
+			"text": "Play as Hunter $ times",
+			"stat": "HUNTER_GAMES_PLAYED",
+			"reqs": 2
+		},
+		{
+			"text": "Play as Cloaker $ times",
+			"stat": "CLOAKER_GAMES_PLAYED",
+			"reqs": 2
+		},
+		{
+			"text": "Play as Warper $ times",
+			"stat": "WARPER_GAMES_PLAYED",
+			"reqs": 2
+		},
+		{
+			"text": "Play as Jack o' Lantern $ times",
+			"stat": "JACK_GAMES_PLAYED",
+			"reqs": 2
+		},
+		{
+			"text": "Play as Visitor $ times",
+			"stat": "VISITOR_GAMES_PLAYED",
+			"reqs": 2
+		},
+		{
+			"text": "Play as Necromancer $ times",
+			"stat": "NECROMANCER_GAMES_PLAYED",
+			"reqs": 2
+		},
+		{
+			"text": "Win a game without any escapes $ time(s)",
+			"stat": "NO_ESCAPES",
+			"reqs": 1
+		},
+		{
+			"text": "Destroy a soul on an Uncursed Portal Fragment $ time(s)",
+			"stat": "SOULS_DESTROYED",
+			"reqs": 2
+		},
+		{
+			"text": "Hit all survivors at least once in $ different matches",
+			"stat": "ALL_SURVIVORS_HIT",
+			"reqs": 4
+		},
+		{
+			"text": "Win a game with no objectives completed $ time(s)",
+			"stat": "NO_OBJECTIVES_COMPLETED",
+			"reqs": 1
+		},
+		{
+			"text": "Start End Game Collapse early $ time(s)",
+			"stat": "EARLY_END_GAME",
+			"reqs": 2
+		}
+	],
+	"survivor": [
+		{
+			"text": "Escape $ time(s)",
+			"stat": "ESCAPES",
+			"reqs": 8
+		},
+		{
+			"text": "Be in the Killer's Terror Radius for $ seconds.",
+			"stat": "KILLER_RADIUS_TIME",
+			"reqs": 240
+		},
+		{
+			"text": "Escape without getting hit $ time(s)",
+			"stat": "UNTOUCHABLES",
+			"reqs": 2
+		},
+		{
+			"text": "Revive a player $ time(s)",
+			"stat": "REVIVES_GIVEN",
+			"reqs": 2
+		},
+		{
+			"text": "Take a protection hit for a survivor $ time(s)",
+			"stat": "PROTECTION_HITS",
+			"reqs": 4
+		},
+		{
+			"text": "Heal a survivor $ time(s)",
+			"stat": "HEALS_GIVEN",
+			"reqs": 8
+		},
+		{
+			"text": "Revive a survivor during the End Game Collapse $ time(s)",
+			"stat": "END_GAME_REVIVES_GIVEN",
+			"reqs": 2
+		},
+		{
+			"text": "Save a player with a Flower of Undying $ time(s)",
+			"stat": "FLOWER_UNDYING_SAVES",
+			"reqs": 3
+		},
+		{
+			"text": "Be a distraction by being hit away from your team $ time(s)",
+			"stat": "DISTRACTIONS",
+			"reqs": 5
+		},
+		{
+			"text": "Escape as the Obsession $ time(s)",
+			"stat": "OBSESSION_ESCAPES",
+			"reqs": 2
+		}
+	],
+}

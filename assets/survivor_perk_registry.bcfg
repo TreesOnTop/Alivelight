@@ -1,0 +1,115 @@
+[Adrenaline]
+name: "Adrenaline"
+description: "The comfort of escaping makes your blood rush.\n\nAfter all objectives are completed,\nheal 1 heart and a\n50% speed boost for 5 seconds.\nRemoves the Mangled effect.\nApplies Exhaustion for $1 seconds."
+event: "END_GAME_COLLAPSE_START"
+tier: { 80, 60, 40 }
+[Miserly]
+name: "Miserly"
+description: "You gain $1% increased Blood.\nIncreases chances of dropping loot\nat the end of a match by 100%"
+event: "LOBBY_START"
+tier: { 25, 50, 100 }
+[Stoic]
+name: "Stoic"
+description: "You are resilient to pain.\n\nYou permanently move $1% slower, but gain 1 heart."
+event: "SURVIVOR_SPAWN"
+tier: { 10, 5, 0 }
+[Scarehare]
+name: "Scarehare"
+description: "Fear is a great motivater.\n\nAfter being hit, move 50% faster for 5 seconds.\nYou become Exhausted for $1 seconds.\nDoes not activate while Exhausted."
+event: "SURVIVOR_HIT"
+tier: { 70, 50, 30 }
+[Medic]
+name: "Medic"
+description: "You can stitch up wounds with your\nprevious medical experience.\n\nIncreases hearts gained after healing by 1\nIncreases healing speed by $1%\nYou become permanently Broken."
+event: "SURVIVOR_SPAWN"
+tier: { 20, 50, 100 }
+[FleetFooted]
+name: "Fleet-footed"
+description: "You're quick on your feet.\n\nYou permanently move $1% faster, but take one less hit."
+event: "SURVIVOR_SPAWN"
+tier: {5,10,15}
+[LeftForDead]
+name: "Left For Dead"
+description: "You have been left behind too many times.\n\nIf you are the last survivor alive,\ngain a $1% movement speed increase."
+event: "LAST_SURVIVOR_ALIVE"
+tier: { 15, 20, 25 }
+[Radar]
+name: "Radar"
+description: "You can listen for little sounds when focused.\n\nAfter crouching, the killer will glow\nfor 5 seconds.\nCooldown: $1 seconds"
+event: "CROUCH"
+tier: {40, 30, 20 }
+[Hope]
+name: "Hope"
+description: "You have hope that maybe, you'll\nsee the light of day.\n\nAfter all objectives are completed,\ngain 7% increased movement speed for $1 seconds."
+event: "END_GAME_COLLAPSE_START"
+tier: { 80, 100, 120 }
+[Coward]
+name: "Coward"
+description: "If you equip this, you are an absolute coward.\n\nPunching the Killer does $1% knockback.\nDoes not effect a crouching Killer.\nCooldown: 10 seconds"
+event: "KILLER_PUNCH"
+tier: { 50, 75, 100 }
+[LeafWrap]
+name: "Leaf Wrap"
+description: "You are wise with organic material.\nMaybe the leaves of the dead tree will help.\n\nReduced your blood trail by $1%."
+event: "LOBBY_START"
+tier: { 50, 75, 100 }
+[GearUp]
+name: "Geared Up"
+description: "You come prepared and ready.\n\nIf you are not the obsession,\nthe obsession gains the permanent $1% uncursing speed boost.\nIf you are the obsession,\nall other Geared Up effects are doubled."
+event: "LOBBY_START"
+tier: { 10, 15, 20 }
+[DesperateMeasures]
+name: "Desperate Measures"
+description: "A healthy mind leads to desired goals.\n\nAfter being hit, gain 25% uncursing and healing\nspeed boost for 60 seconds.\nCooldown: $1 seconds"
+event: "SURVIVOR_HIT"
+tier: { 160, 120, 100 }
+[Selfless]
+name: "Selfless"
+description: "Your selfless actions bring high rewards.\n\nAfter fully healing a survivor, gain\n50% healing progress yourself.\nDoes not activate while Mangled.\nCooldown: $1 seconds"
+event: "SURVIVOR_HEAL"
+tier: {60, 40, 30}
+[Protector]
+name: "Protector"
+description: "You will make sacrifices to protect.\n\nAfter taking a protection hit,\nall survivors within 5 blocks gain 1 heart.\nDoes not activate on Mangled survivors.\nCooldown: $1 seconds"
+event: "PROTECTION_HIT"
+tier: { 60, 45, 30 }
+[Trickster]
+name: "Trickster"
+description: "You have a couple of tricks up your sleeve.\n\nAfter taking a hit that would cause your death,\ninstead go invisible for 5 seconds.\nOnce activated, you become mangled for $1 seconds.\nOnly activates once per game."
+event: "FATAL_HIT"
+tier: { 60, 40, 30 }
+[HealthyObsession]
+name: "Healthy Obsession"
+description: "He's obsessed with you, in a healthy way!\n\nIf you're the obsession,\nheal 2 hearts for each kill the Killer gets.\nIf you aren't the obsession,\ngain $1% more blood for healing the Obsession.\nIncreases your chance of being the Obsession."
+event: "SURVIVOR_DEATH"
+tier: { 100, 200, 250 }
+[BackAgain]
+name: "Back, Again"
+description: "Welcome back to this nightmare.\n\nAfter being revived,\nheal 1 hearts and gain\n50% movement speed for 10 seconds.\nYou become Exhausted for $1 seconds."
+event: "SURVIVOR_REVIVE"
+tier: { 80, 60, 40 }
+[SprintBurst]
+name: "Sprint Burst"
+description: "A sudden burst of energy!\n\nPress &eSwap Hand &dbutton to activate.\nGain 50% movement speed for 5 seconds.\nYou become Exhausted for $1 seconds.\nDoes not activate while Exhausted or crouching."
+event: "PRESS_F"
+tier: { 80, 60, 40 }
+[Determination]
+name: "Determination"
+description: "You have a strong determination to make it out with the others.\n\nAfter healing $1 hearts total,\nyou gain the Determined effect.\nWhile Determined, you can take 1 extra hit.\nHeals made while Determined do not count."
+event: "SURVIVOR_HEAL"
+tier: { 5, 4, 3 }
+[Replenish]
+name: "Replenish"
+description: "Grants you the power to reuse your items!\n\nOnce you have used your item,\nyou will get your item back in $1 seconds.\nOnly activates once per game.\nUsing your replenished item removes it from your item inventory."
+event: "USE_ITEM"
+tier: { 60, 45, 30 }
+[Camouflage]
+name: "Camouflage"
+description: "Disappear without a trace.\nPress &eSwap Hand&d while crouching to activate.\nUpon activation, you will become invisible and Broken for 8 seconds.\nYou become Exhausted for $1 seconds.\nDoes not activate while Exhausted."
+event: "PRESS_F"
+tier: { 100, 80, 60 }
+[SoulPower]
+name: "Soul Power"
+description: "Your soul has extra power on the ground.\nYour soul takes $1 seconds longer to expire.\nThe survivor carrying your soul gains\na 10% speed boost for 30 seconds."
+event: "SOUL_PICKUP"
+tier: { 5, 10, 12 }

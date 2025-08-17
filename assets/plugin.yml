@@ -1,0 +1,130 @@
+main: net.blixate.deadlight.Deadlight
+name: Deadlight
+description: The plugin that makes Dead Light work!
+version: 0.9.5
+authors: [MisterBasic]
+depend: [Vault]
+softdepend: [Citizens, NoteBlockAPI, Deadlight-Bot, WorldEdit]
+api-version: 1.16
+commands:
+   spawn:
+        description: Teleport to the server's spawn point.
+        usage: /spawn
+   queue:
+        description: Queue up for a match.
+        usage: /queue
+   map:
+        description: Map editing tools.
+        usage: /map (save|load|<option>) <map> [...]
+   deadlight:
+        description: Main command for Deadlight.
+        aliases:
+         - dl
+#   transfer:
+#        description: Transfer blood to another person.
+#        aliases:
+#         - bloodtransfer
+#         - drain
+   admsg:
+        description: View the advertisement message for advertising.
+        usage: /admsg
+        aliases:
+         - ad
+   blood:
+        description: View your blood.
+   souls:
+        description: View your souls.
+   level:
+        description: View your level, prestige and exp.
+        aliases:
+         - xp
+         - exp
+   prestige:
+        description: Prestige your account and start all over again!
+   discord:
+        description: Join our discord server!
+   tutorial:
+        description: Learn how to play!
+        aliases:
+         - help
+         - tut
+   guide:
+        description: A full explaination of the mechanics of Deadlight!
+   rules:
+        description: Learn our server rules!
+   ping:
+        description: View your ping
+        aliases:
+         - pong
+   stats:
+        description: View your stats!
+        aliases:
+         - statistics
+   playtime:
+        description: View your (or someone else) playtime.
+        aliases:
+         - pt
+   verify:
+        description: Link your Discord account to the server!
+   leaderboard:
+        description: View the leaderboard!
+        aliases:
+         - top
+         - lb
+   lobbies:
+        description: View the list of active lobbies.
+        aliases:
+         - games
+   staffchat:
+        description: Staff chat command.
+        aliases:
+         - sc
+         - staffmsg
+   kit:
+        description: Open the kit menu.
+        aliases:
+         - kitmenu
+   fishing:
+        description: Open the fishing menu.
+        aliases:
+         - fish
+   nickname:
+        description: Change your nickname
+        aliases:
+         - nick
+   mute:
+        description: Mute a player.
+   tempmute:
+        description: Temporarily mute a player.
+   unmute:
+        description: Unmute a player.
+   mutechat:
+        description: Mute the chat.
+   clearchat:
+        description: Clear the chat.
+        aliases:
+         - cc
+   queueban:
+        description: Ban a player from the queue system.
+        aliases:
+         - qban
+   queueunban:
+        description: Unban a player from the queue system.
+        aliases:
+         - qunban
+   report:
+        description: Report a player to online staff.
+   image:
+        description: Create an image from a URL or file location.
+        aliases:
+         - mapimage
+   dailychallenges:
+        description: View your daily challenges.
+        aliases:
+         - daily
+   rankpurchase:
+        description: Announces to the server that a rank has been purchased.
+   music:
+        description: Change your music settings.
+        aliases:
+         - ost

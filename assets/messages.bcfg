@@ -1,0 +1,725 @@
+# $n = raw placeholder
+# &$n = Coloured placeholder
+# %$n = Only coloured placeholder
+[English]
+# Random MOTD for the server list
+message_of_the_day: "&l  &4               ☠&9 &lDead Light&e 1.20.1+ &4☠&r\n                  &d&l»&7 &nDeadlight.minehut.gg&7 &d&l«"
+# Command messages
+no_permission: "&cInsufficent Permissions."
+usage: "&cUsage: $1"
+bad_argument: "&cBad Argument: $1"
+player_not_online: "&cPlayer not online: $1"
+cant_target_self: "&cYou can't target yourself!"
+required_rank: "&cYou require rank &$1 to use this feature!"
+must_be_at_spawn: "&cYou must be at spawn to execute this command!"
+not_implemented: "&cThis feature is not implemented yet!"
+disabled: "&cThis feature is currently disabled!"
+command_error: "&cError: $1"
+command_warning: "&e&lWarning: &e$1"
+
+queue_error: "&cMatch failed to start. &8($1)\n&cPlease contact a server director with this message in your bug report."
+
+report: "&a&lREPORT &e$1 &areported &e$2"
+report_reason: "&a&lREPORT &e$1 &areported &e$2 &afor &e$3"
+thanks_for_report: "&aThanks for reporting &e$1!"
+report_cooldown: "&cYou must wait $1 seconds before reporting again!"
+
+first_time_join: "&8[&d+&8] &7$1"
+staff_join: "&8[&c+&8] &7$1"
+join_message: "&8[&a+&8] &7$1"
+quit_message: "&8[&c-&8] &7$1"
+login_reward: "&b+$1 Login Reward"
+
+chat_message: "$3$2 &7$1&8:&f $4"
+chat_message_colored: "$3$2 &7$1&8:&f &$4"
+chat_cooldown: "&cWait 1 second before sending a chat message again."
+chat_no_unicode: "&cYou don't have permission to use unicode messages."
+chat_muted: "&cChat is currently muted."
+
+knocked_title: "&4&lKNOCKED"
+knocked_subtitle: "&7You are incapacitated!"
+
+survivor_spawn_title: "&a&lSURVIVOR"
+survivor_spawn_subtitle: "&7Complete objectives and escape."
+killer_spawn_title: "&c&lKILLER"
+killer_spawn_subtitle: "&7Don't let them escape!"
+role_survivor: "\n&aYou are a &eSurvivor&a!\n\n&aRight-click &eSoul Sand&a to complete objectives.\n&aHeal your teammates to escape together!\n&aDon't let &ethe Killer&a catch you!\n&f"
+role_killer: "\n&cYou are the &eKiller&c!\n\n&cKill survivors and stop them from completing objectives.\n&cDestroy &eSoul Sand&c to sabotage their progress!\n&cDon't let them escape!\n&f"
+you_died: "&c&lYOU DIED!"
+spectating: "&7You are now a ghost."
+
+map_error: "&cAn error occurred while loading the map:\n$1: $2\n&cCheck console for stack trace."
+# Queue
+user_join_queue: "&aJoined queue."
+user_leave_queue: "&cLeft queue."
+user_queue_locked: "&cThe queue is currently locked, please check back later."
+user_now_queue_banned: "&cYou have been banned from queue.\n&cDuration: &e$1"
+user_no_lobbies_found: "\n&cWe couldn't find any lobby to start the match!\n&cSince creating new lobbies is not an option, try again later.\n&e"
+user_queue_banned: "&cYou are currently banned from queue!\n&cTime Left: $1"
+user_read_tutorial: "&cPlease read &e/tutorial&c to queue into a match."
+
+queue_start_vote: "&aYou voted to start the match early."
+queue_start_unvote: "&aYou decided not to start the match early."
+queue_announce_vote: "&e$1&a voted to start the match early."
+queue_announce_unvote: "&e$1&a decided not to start the match early."
+
+# Spawn messages
+user_tp_spawn: "&aYou were sent to spawn!"
+user_set_spawn: "&aSpawn point set to your position."
+user_set_spawn_error: "&cAn error occurred while setting spawn:\n$1"
+
+# Currency messages
+user_view_blood: "&4Your Blood:&c $1"
+user_view_other_blood: "&4$1's Blood: &c$2"
+user_view_souls: "&9Souls:&b $1"
+user_view_other_souls: "&9$1's Souls: &b$2"
+# $1: level
+# $2: xp
+# $3: prestige
+# $4: xp, formatted
+# $5: level up xp, formatted
+user_view_level: "&aPrestige $3, Level $1 &e$4xp&7/&e$5xp"
+user_view_killer_level: "$1 Level $2 $3/$4"
+user_data_failed: "&cAn error occurred while loading player data!"
+stats_self: "&a&lYour Stats\n&e› Kills: $1\n› Deaths: $2\n› Escapes: $3\n› Escape Streak: $4\n› Killer Weight: $5\n› Time Played: $6"
+stats_other: "&a&l$7's Stats\n&e› Kills: $1\n› Deaths: $2\n› Escapes: $3\n› Escape Streak: $4\n› Killer Weight: $5\n› Time Played: $6"
+playtime_self: "&d› Your Time Played: &e$1"
+playtime_other: "&d› $2's Time Played: &e$1"
+ping_self: "&a› Ping: &e$1ms"
+ping_other: "&a› $2's Ping: &e$1ms"
+
+leaderboard_header: "&7--------- &c&lLEVEL LEADERBOARD &7---------"
+leaderboard_footer: "&7--------- &c&lLEVEL LEADERBOARD &7---------"
+leaderboard_line: "&9$1. &e$2 &aLv $3, Prestige $4"
+
+# Match messages
+match_killer_disconnect: "&cMatch ended. Killer left."
+match_last_survivor_disconnect: "&cMatch ended. Last survivor disconnected."
+match_survivor_disconnect: "&cA survivor has disconnected from the match."
+match_survivor_death: "&e$1 &cwas killed by the Killer!"
+match_survivor_escaped: "&e$1 &ahas escaped!"
+match_end_game_collapsed: "\n&6&lThe arena has collapsed!\n&6"
+match_disallow_command: "&cYou cannot run this command while in a match."
+killer_gen_break_cooldown: "&cYou must wait $1 seconds before sabotaging another fragment!"
+killer_sabotage_regressing: "&cThis objective is already regressing!"
+killer_generator_completed: "&cSurvivors have uncursed a portal fragment!"
+survivor_generator_completed: "&aA fragment has been uncursed!"
+survivor_portals_open: "&aExit portals have opened! You can now escape!"
+killer_portals_open: "&cExit portals have opened! Don't let them escape!"
+admin_max_generators: "&cMax generator limit reached."
+admin_max_portal: "&cMax portal limit reached."
+
+# Died but can be revived
+player_soul_revivable: "&bYou may have died, but your soul is still out there!"
+# When a survivor tries to grab another player soul with one in their inventory
+player_soul_inventory_full: "&bYou are already carrying a Player Soul!"
+# Waiting for a revival
+player_soul_on_ground: "&bWaiting for revive..."
+# When a player picks up a player soul of another player
+player_soul_pickup: "&bYou picked up $1's soul! Place it on an &eEnd Portal Frame&b to revive them!"
+# When the player puts the player soul on an Uncursed Fragment
+player_soul_dropoff: "&bReviving $1..."
+# When a player soul expires (global)
+player_soul_expired: "&b$1's soul expired!"
+# When a player dies with Player Soul's in their inventory, or if the soul is destroyed on the fragment.
+player_soul_destroyed: "&b$1's soul has been lost!"
+# When a player leaves with their soul on the ground.
+player_soul_left: "&b$1 left the match, their soul has disappeared."
+# When a player leaves before they can be revived.
+player_soul_cant_revive: "&b$1 left the match, they cannot be revived."
+# When a player leaves while being revived
+player_soul_revive_cancelled: "&b$1 left the match, they are no longer being revived."
+# When a player is revived
+player_soul_revive_global: "&b&l$1 &bhas been resurrected from the grave!"
+# When a player has already been revived
+player_soul_already_revived: "&bYou have already been revived this match. You cannot be revived again!"
+# When a player cannot be revived due to it being disabled.
+player_soul_revive_disabled: "&bYou cannot be revived!"
+
+player_soul_while_escaping: "&bYou can't escape while carrying a Player Soul!"
+
+player_soul_being_revived_title: "&bREVIVING"
+player_soul_being_revived_subtitle: "&7You are being revived!"
+
+# Obsession messages
+surv_become_obsession: "&4You are the object of obsession!"
+
+user_blood_transfer: "&aDrained &e$1 Blood &ato &e$2&a!"
+user_blood_transfer_receive: "&e$2&a drained &e$1 Blood &ato you!"
+
+blood_buffer_cleared: "&aYou received &e$1 Blood&a from that match!"
+blood_buffer_cleared_bloodbath: "&aYou received &e$1 Blood&a from that match! &d&l(2x BLOOD BATH)"
+
+match_result: "&aYou found &6$1&a!"
+
+actionbar_queued: "&aYou are in queue!"
+
+actionbar_progress: "&f$1%"
+actionbar_progress_slow: "&c&l$1% &c↓"
+actionbar_progress_fast: "&e&l$1% &e↑"
+
+actionbar_healing_survivor: "&aHealing &f$1&a. $2"
+actionbar_getting_healing: "&f$1 &ais healing you. $2"
+
+actionbar_gen_destroy: "&c-$1% &8(&e$2%&8)"
+actionbar_no_progress: "&cNothing changed, no progress."
+
+actionbar_healed_self: "&aYou healed yourself!"
+actionbar_healed_survivor: "&aYou healed &f$1&a!"
+actionbar_cannot_heal_self: "&cYou cannot heal yourself!"
+actionbar_cannot_heal: "&f$1&c cannot be healed!"
+
+actionbar_pickup_soul: "&aYou picked up &e$1&a's soul!"
+actionbar_cannot_pickup_soul: "&cYou cannot pickup player souls!"
+
+actionbar_afk: "&aRight-click &eSoul Sand&a to uncurse!"
+actionbar_afk_endgame: "&aRight-click &eRedstone Lamps&a to power your escape!"
+
+# Selection
+selected: "&aSelected &e$1&a."
+already_selected: "&cAlready selected &e$1&c."
+cannot_select: "&cCannot select &e$1&c."
+purchased: "&aPurchased $1 &e$2"
+sold: "&aSold $1 &e$2"
+no_resources: "&cInsufficent Resources!"
+no_funds: "&cInsufficent Funds!"
+
+# Fishing Rod Selection
+rod_purchased: "&aPurchased &$1&a for &e$2&a!"
+rod_already_equipped: "&cYou already have a Fishing Rod equipped!"
+
+rod_expired: "&cYour Fishing Rod ran out of uses!"
+rod_unequipped: "&cYour Fishing Rod was unequipped."
+
+# Perks
+perk_equip: "&aEquipped &6$1&a."
+perk_unequip: "&aUnequipped &6$1&a."
+perk_purchased: "&c-$1 Blood\n&aBought Perk!"
+perk_unimplemented: "&cCannot equip perk &7(Not Implemented!)"
+perk_disabled: "&cThe perk &6$1 &cis currently disabled."
+perk_removed: "&cThe perk &6$1&c has been removed from your kit."
+perk_no_funds: "&cYou do not have enough &4Blood&c to buy this perk!"
+perk_too_many: "&cMax perks equipped. &8(&e$1&8/&e4&8)"
+# Perk Tiers
+perk_upgraded: "&c-$2 Blood\n&aUpgraded perk to &eTier $1"
+perk_max_tier: "&cThis perk is max tier, and cannot be upgraded anymore."
+perk_tier_no_funds: "&cYou do not have enough &4Blood&c to upgrade this perk!"
+# Perk activation messages
+perk_leftfordead_activate: "&aYou are the last survivor alive. Left for dead has activated!"
+perk_dawnscurse_activate: "&cDawn's Curse Activated! All objectives have been blocked!"
+perk_dawnscurse_deactivate: "&cDawn's Curse Deactivated. All objectives have been unblocked!"
+perk_stalker_cant_activate: "&cNo obsession. Stalker can't activate!"
+perk_protector_activate: "&aProtector healed &e$1&a survivors!"
+perk_warden_activate: "&cWarden Activated! The Exit Portals have been blocked!"
+perk_warden_deactivate: "&cWarden Deactivated. The Exit Portals are now open."
+perk_nowayout_cant_activate: "&cThe Obsession is dead! No Way Out will no longer trigger!"
+perk_replenish_no_item: "&cReplenish failed. No item equipped."
+perk_replenish_no_item_left: "&cReplenish failed. You ran out of your equipped item!"
+heartbeat_hidden: "&aYour heartbeat is hidden!"
+heartbeat_unhidden: "&aSurvivors can now hear your heartbeat!"
+actionbar_blocked: "&cThis objective is blocked!"
+actionbar_blocked_infected: "&cYou cannot do actions while &a&lInfected&c!"
+
+mangled: "&cYou are &6&lMangled&c! You take longer to heal!"
+exposed: "&cYou are &4&lExposed&c! You take 2x damage from attacks!"
+impaired: "&cYou are &e&lImpaired&c! Your uncursing and powering speed has been reduced!"
+knocked: "&cYou are &4&lKnocked&c! You must be picked up by a teammate, or you can pick yourself up at a cost of one heart. &7(Press Swap Hands to pick yourself up)"
+
+
+knocked_other: "&e$1 has been knocked down! Right-click to help them up!"
+knocked_actionbar: "&eWaiting for help..."
+knocked_self_pickup: "&aYou picked yourself up!"
+knocked_pickup: "&e$1&a picked you up!"
+
+cosmetics_locked: "&cYou need to be level $1 to unlock cosmetics!"
+
+# Fishing
+fishing_entity: "&aUse water if you want anything."
+fishing_queue_warning: "&cYou are currently in queue.\n&cPlease leave the queue to buy a fishing rod."
+fishing_bite: "&aYou caught a bite!"
+fishing_failed_attempt: "&cAlmost had it! Better luck next time!"
+# Fishing -> Normal Catch
+fishing_caught: "&aYou caught &6$1&a!"
+
+fishing_random_thoughts: {
+	"&7&oWell, this is boring.",
+	"&7&oWhy am I even doing this?",
+	"&7&oHoping for some good loot, I guess.",
+	"&7&oAm I crazy?",
+	"&7&oThere don't seem to be fish in these waters.",
+	"&7&oWhere's the fish?",
+	"&7&oThis is an odd task for a nightmare scenario.",
+	"&7&oWhy do they let me fish? And then catch anything but fish?",
+	"&7&oThese waters need some cleaning. Should I clean them?",
+	"&7&oIs this really the only thing the devs could think of? Fishing?!?!",
+	"&7&oI'm extremely bored and want to do something else.",
+	"&7&oDoes God speak French?",
+	"&7&oAre you talking to yourself, or am I talking to you... wait who's talking?",
+	"&7&oSometimes I notice that weird logo on the exterminators' gear. What could it mean?",
+	"&7&oI'm glad it's always night time. It makes fishing convenient. Wait- That's not normal.",
+	"&7&oApparently there was this doctor who experimented with the Plague and an infant. Is that what started this?",
+	"&7&oIt's really peaceful and hidden away up here. Super convenient for avoiding psychopathic murderers.",
+	"&7&oWe didn't get much useful stuff from those crates over there. Funny.",
+	"&7&oWhy do I have a strong hatred for cats all of a sudden? Wait, now it's gone.",
+	"&7&oI have these weird dreams where I'm the exterminator.",
+	"&7&oThis reminds me of that movie with the buff killer robot. Man that was cool.",
+	"&7&oThe words 'by' and 'day' are stuck in my head.",
+	"&7&oThis probably took a while to code. Maybe I should support the devs.",
+	"&7&oI'm glad I read the tutorial.",
+	"&7&oWhat are those signs past the tunnel?",
+	"&7&oI wonder what it's like on the top of the tree.",
+	"&7&oFor an apocolypse, this is pretty relaxing. For now at least.",
+	"&7&oWOAH POGFISH",
+	"&7&oMost of us were born with the Plague.",
+	"&7&oKagome~ Kagome~ Who is that behind you?",
+	"&7&oFrozen frog actually tastes good. That little tomboyish girl was right.",
+	"&7&oMr. Raccoon, Mr. Raccoon, will you come and play with me~?",
+	"&7&oI'm kind of hungry.",
+	"&7&oI remember when Fleetfooted was meta. Funny days.",
+	"&7&oCan you feel the sunshine? Does it brighten up your day~?",
+	"&7&oThis water feels unusually nice. But, it is water...?",
+	"&7&oMaybe Gaston was right.",
+	"&7&oYes.",
+	"&7&oNo.",
+	"&7&oMaybe?",
+	"&7&oIf you wanted to escape, why did you get caught?",
+	"&7&oI don't remember who brought us to this place, but they have style.",
+	"&7&oDoes anybody else hear that screaming baby?",
+	"&7&oObey and nobody gets hurt. That's what they say.",
+	"&7&oIs this all my fault?",
+	"&7&oI feel guilty for doing the right thing.",
+	"&7&oLast chance to look at me, Hector.",
+	"&7&oSay my name.",
+	"&7&oTell me, what is it you truly desire?",
+	"&7&oThe voices are getting louder... when will it stop?!",
+	"&7&oTwo plagues. One for them, one for us.",
+	"&7&oThe beauty of annihilation.",
+	"&7&oDo you want to play a game?",
+	"&7&oYou see a note that says '74315'",
+	"&7&oI could really go for an Adam Sandler movie right now.",
+	"&7&oI sense the Adam Sandler Signal.",
+	"&7&oI made friends with a lizard. He told a secret :)",
+	"&7&oWait... is fishing just a lootbox that takes a long time to fully open?",
+	"Yes I will land on my feet. I will be okay. But you? Far from it.",
+	"You can't hide who you really are forever."
+}
+
+# Items
+item_equip: "&aEquipped item &6$1&a."
+item_unequip: "&aUnequipped item &6$1&a."
+item_received: "&aReceived &6$1&a."
+# Item activations
+actionbar_flash_powder: "&eYou activated &6Flash Powder&e!"
+actionbar_stunned_killer: "&aStunned the Killer!"
+actionbar_stunned_survivor: "&aBoosted &e$1"
+
+actionbar_unblocked_objective: "&eUnblocked Fragment!"
+
+flower_placed: "&aYou placed &e$1"
+flower_cant_placed: "&cYou can't place that there!"
+flower_destroyed: "&cThe Killer destroyed your flower!"
+flower_expired: "&aYour flower has expired!"
+
+flower_heal_radius: "&aYou are being healed by a &eFlower of Healing&a!"
+flower_heal: "&aYou were healed by a nearby &eFlower of Healing&a!"
+
+flower_undied: "&aA nearby &eFlower of Undying&a protected you from death!"
+flower_undied_killer: "&cThe survivor was protected by a &eFlower of Undying&c!"
+flower_undied_owner: "&aYour &eFlower of Undying&a protected a survivor from death!"
+
+flower_healing_speed: "&aYour healing speed has been increased by a &eFlower of Knowledge&a!"
+flower_healing_speed_left: "&aYou left the radius of the &eFlower of Knowledge&a!"
+
+# Level up
+level_up: "&a&lLevel up! &aYou are now &eLevel $1&a."
+level_prestige: "\n&a&lPrestige! &aYou are now &e$1\n&e"
+global_level_prestige: "&e$1&7 has prestiged to &e$2&7!"
+prestige_available: "&aYou are now able to Prestige!"
+cant_prestige: "&cYou cannot prestige until &eLevel 100&c."
+max_prestige: "&cYou cannot prestige passed &ePrestige 10&c."
+prestige_reset_all: "\n&a&lMaster! &aYou have now started from &eDay 0\n&a"
+
+killer_level_up: "&6&lLevel up! &e$1 is now Level $2&e."
+
+header_text: "\n&9&lDeadlight\n$event\n\n$tps_colored TPS"
+footer_text: "&7(&e$online_player_count&7/$max_player_count)\n\n$queue_state\n\n$ping_str\n$effect_list"
+
+# When there isn't an event going on
+event_none: "&7Death is not an escape."
+# When the Mystery Shop is open.
+event_mystery_man: "&d&lMYSTERY SHOP OPEN!"
+# When the Blood Bath Event is on.
+event_bloodbath: "&4&lBLOOD BATH EVENT"
+# Fishing Event
+event_fishing: "&b&lFISHING FRENZY EVENT"
+# surge event
+event_surge: "&4&lPLAGUE SURGE"
+# When it's Hunting Season
+event_hunting: "&4&lIt's hunting season."
+
+event_bloodbath_text: "&4&lBLOOD BATH ACTIVE\n&cEarn &d2x Blood&c while this event is active."
+event_fishing_text: "&b&lFISHING FRENZY ACTIVE\n&bFish are quicker to the hook!\n&bEarn &d2x XP&b from fishing."
+
+event_halloween: "&e&6&lSPOOKY SEASON &e"
+event_christmas: "&4&f&lSNOWY SEASON &4"
+event_valentine: "&4&c&lSEASON OF LOVE &4"
+
+offering_burnt: "&e$1&a burnt &6$2&a!"
+offering_maxed: "&cToo many of this offering are already active!"
+
+parkour_claim_reward: "&aYou claimed &e$1 Blood&a for completing this stage!"
+parkour_already_claimed_stage: "&cYou already claimed this reward for this stage!"
+
+state_not_in_queue: "&aNot queued"
+state_queue_banned: "&cQueue-Banned"
+state_in_queue: "&aQueued &8(&e$1&8/5)"
+state_in_match: "&aIn a match"
+
+# Staff
+staff_message: "&8[&4SC&8] &c$1&8: &a$2"
+
+# Auto Queue
+auto_queue_on: "&aAuto-queue has been enabled."
+auto_queue_off: "&aAuto-queue has been disabled."
+auto_queue: "&8[&a&lAuto-queue&8] &aYou have joined the queue."
+
+# Nickname
+changed_nickname: "&aYour nickname is now $1&a."
+changed_nickname_colored: "&aYour nickname is now &$1&a."
+nickname_too_long: "&cNickname is limited to 20 characters."
+nickname_reverted: "&aNickname reverted!"
+nickname_non_alphanumeric: "&cNickname can only contain alphanumeric characters!"
+
+# Punishment Messages
+mute_warning: "&cYou are currently muted!\n&cReason: $1"
+mute_no_reason_warning: "&cYou are currently muted!"
+
+tempmute_warning: "&cYou are currently muted!\n&cDuration: $2\n&cReason: $1"
+tempmute_no_reason_warning: "&cYou are currently muted!\n&cDuration: $1"
+
+mute_public: "&e$1&7 has been muted by &e$2&7 for &e$3&7.&f"
+mute_no_reason: "&e$1&7 has been muted by &e$2&7.&f"
+unmute_public: "&e$1&7 has been unmuted by &e$2&7."
+
+prestige_colors: {"§a","§2","§3","§b","§e","§6","§c","§4","§d","§5","§f§l"}
+
+tips: {
+	"Know when to hide! The killer will often patrol around objectives.",
+	"Teamwork is dream work. Coordinate actions to make de-cursing faster, and avoiding the killer easier.",
+	"Occupy the Killer! It lets your team do objectives.",
+	"Escape portals do not speed up if multiple survivors are working on one!",
+	"When the Killer hits a survivor, they are temporarily stunned for 3 seconds. Get away fast!",
+	"When you become Level 100 you can prestige, which will reset your perks.",
+	"Try building your perks to work with each other to create powerful effects.",
+	"Always try to go into a match with a strategy in mind so you can act efficiently and use your perks better."
+	"Remember that the opponents could just be having a really lucky day!",
+	"Use corners and cover to deceive the Killer. Stealth can make the difference between life and death!",
+	"Remember that you can use your Blood to buy perks, augments and cosmetics!",
+	"You can join our discord with /discord!",
+	"A good perk build reflects how you play! Pick perks that synergies with other perks.",
+	"Be patient. You never know when an opportunity will arise.",
+	"No one is too cool to read /tutorial.",
+	"Be careful around corners. One wrong turn can get you seriously hurt!",
+	"If your teammates are in chase but low health, help them out. More survivors alive is always better!",
+	"Use /report to report rule-breakers!",
+	"You can sneak over The Scrubber's traps to prevent them from triggering!",
+	"The Cloaker can appear from anywhere. Keep a look out!",
+	"The Hunter can be thrown off by being hard to predict. Swerve and stay out of Line of Sight!",
+	"The Warper is slower than survivors, you can (technically) outrun them!",
+	"Jack o' Lantern's Dark Steed cannot go through small doorways!",
+	"Necromancer's minions can be destroyed!",
+	"Use Augments to change your Killer Ability!",
+	"You can link your Minecraft account with the Discord using /verify!",
+	"Prestiging changes the color of your Level in chat!",
+	"You can heal your teammates by crouching and right-clicking them!",
+	"On certain days of the week, different events will happen. Try participating in them!",
+	"Use headphones for the best experience!",
+	"Hearing music and don't want to? Do '/music off' to disable it!"
+}
+rules: {
+	"&b&lRULES\n&7These describe our server rules. If you have any issues, please talk to staff.",
+	"&c1. &8You cannot use client modifications to purposefully gain an unfair advantage. Performance mods are allowed, but mods that change how your player interacts with the world or display unfair information are forbidden.",
+	"&c2. &8If you find something that isn't acting as intended, we suggest you report it. Do not abuse bugs for your advantage.",
+	"&c3. &8You cannot advertise anything. Sharing links to other media must be relevant to the discussion and cannot contain NSFW content.",
+	"&c4. &8Do not convincingly impersonate anyone. If in jest, it's fine, but just make it obvious you're joking.",
+	"&c5. &8Killers cannot team with any survivors. &lAlthough sparing the last survivor is not considered teaming.",
+	"&c6. &8Keep chat behaviour reasonable. Don't flood chat, spam, hurl insults and any other general toxicity, or annoy people.",
+	"&c7. &8Do not intentionally throw the game for your team. Being AFK during a match repeatedly may count as throwing the game. If you are AFK, don't queue.",
+	"&c8. &8Do not abuse our Discord integration. Do not ask users for their /verify codes, and do not hijack codes for accounts that aren't yours."
+	"That's all, folks!\n\nStaff will enforce rules at their discretion. If you think you did nothing wrong, join our discord to appeal."
+}
+guide: {
+	"&d&lWelcome to the Deadlight Guide!\n&0We've compiled all the knowledge you need to know about Deadlight :D",
+	"&a&l&nSurvivor\n\n&0Your objective is to uncurse &d5 Soul Sand&0. Hold Right-click on &dSoul Sand&0 to start uncursing.",
+	"&a&l&nSurvivor\n\n&0Once all &d5&0 objectives are completed, you can power &dat least 1 of 2 Exit Portals&0 to escape, which look like Redstone Lamps. These take time to power, so hold right-click on them until they are fully powered.",
+	"&a&l&nSurvivor\n\n&0If you shift and hold right-click on your injured allies, you can heal them!",
+	"&a&l&nSurvivor\n\n&0When you die, you drop a &dSoul&0. Another player can pick this up with right-click and place it on an &dCompleted Portal Fragment&0 to revive you. This can only happen once per survivor!",
+	"&c&l&nKiller\n\n&0Your objective is to kill all survivors and prevent escape by any means necessary. Break Soul Sand to sabotage their progress!",
+	"&c&l&nKiller\n\n&0Survivors tend to be around objectives, so if you can't find any, search around the &dSoul Sand&0 to find them.",
+	"&c&l&nKiller\n\n&0Select a Killer Type to change your abilities. Abilities help you catch survivors off guard and seal their fate.",
+	"&c&l&nKiller\n\n&0If you see a survivor being revived on a &6Completed Portal Fragment&0, left click it to destroy the soul and stop the revive.",
+	"The next pages are more advanced knowledge, so if you want to continue to learn the server, please continue reading. Otherwise, you should know enough to be able to play!."
+	"&b&l&nFishing\n\n&0You can go fishing using &b/fishing&0. You gain items, offerings, blood, and souls from fishing, good stuff!",
+	"&4&l&nObsession\n\n&0The obsession has a lunar (&4˜½&0) symbol around their name. The Obsession has point bonuses if killed, or they escape.",
+	"&4&l&nObsession\n\n&0Some perks affect the obsession in different ways, so keep an eye out for who the obsession is.",
+	"&6&l&nEnd Game Collapse\n\n&0After all objectives are completed, the match timer will disappear, being replaced with the End Game Collapse.",
+	"&6&l&nEnd Game Collapse\n\n&0Both killers and survivors have 2 minutes to complete their final objectives, or the arena collapses. The Killer recieves points for any survivors who die in the collapse.",
+	"&d&l&nLoadout\n\n&0You can use the slimeball named &dCustomize Kit&0 or &d/kit&0 to change your perks, items, ability, and cosmetics. These can help you define your own playstyle!",
+	"&4&l&nStatus Effects\n\n&0"
+#	"&0&l&nLore\n\n&0We've hidden some stuff around spawn and maps. Maybe you can explore a bit and piece together what happened.",
+	"That's all folks! Do &6/queue&0 or right click the item in your inventory. If you have specific questions that this tutorial does not answer, ask in chat.\n\n&nRead our Rules: &6/rules",
+}
+
+tutorial_message: "&aPlease read the tutorial carefully and ask questions if you don't know!"
+tutorial: {
+	"&9Welcome to Deadlight!\n&8(Inspired by DBD)\n&0This is a short, basic tutorial that you should read to get the gist on how to play!\n\nYou may do /guide for a more in-depth tutorial later!",
+	"&a&l&nSURVIVOR\n\n&0Hold right click on Soul Sand (Fragments) to uncurse it.\n\nWhen you uncurse all 5 Fragments, you unlock the Exit Portals (Redstone Lamps) Which will glow.\n\nDon't let the Killer catch you!",
+	"&4&l&nKILLER\n\n&0Kill the survivors, and stop them from uncursing fragments.\n\nDestroy the Fragments to Sabotage them, which will drain their progress until the survivors interact again.",
+	"&a&lCUSTOMIZATION\n\n&0After reading this, you will be given 50k blood to buy Perks-\n\nEquippable abilities that give you certain listed effects.\n\nThat's all! Read /guide for more info!"
+}
+#
+# NPC Dialog
+#
+
+# NPC Messages
+npc_dialog: "&e$1&e: &f&$2"
+npc_enemy_dialog: "&4$1&4: &f&$2"
+npc_friend_dialog: "&a$1&a: &f&$2"
+
+# A shitty salesman who is also a sea monster...
+npc_sea_monster: {
+	"It's hard to catch fish with your mouth. That's why I use a Fishing Rod!",
+	"This pond is full of treasure, and none of which are any good fish.",
+	"If you don't rent my Fishing Rods, I will eat you. Just kidding, of course!",
+	"The Plague can do interesting things to a person. It even affects water, maybe...",
+	"The water is cursed with goodies! Or is it blessed? Eh, might as well get what you can!",
+	"Being a monster of the sea means I have to sell Fishing Rods. What a terrible life!",
+	"The cheaper rods are for a low price. Go big or go... small!",
+	"Oysters are a delicious food. Or not, I haven't tried them.",
+	"jerry is such a cool fish!",
+	"larry is such a disappointing fish.",
+	"bob is a pufferfish, and admires jerry with a passion. Almost strangely.",
+	"It seems like the devs needed an NPC for fishing and found a sea monster skin that fit good enough. Weird.",
+	"My real name is &kseamonster lmfao&f, but you can just call me Sea Monster.",
+	"I'll tell you what, if you rent my fishing rods now, i'll give you 0% off!",
+	"My flesh is melting, and so will yours if you don't rent my fishing rods.",
+	"The only thing I have left is these fishing rods, so please rent some.",
+	"RENT MY FISHING RODS, PLEASE!!",
+	"Fishing rods are your key resources to fishing. Your hands don't work that well!",
+	"I talk to every customer. Nobody ever responds :(",
+	"I'm scared of turtles. They look weird!",
+	"Who decided to make sea snakes? Bleh! Tell them that was a terrible idea!",
+	"*nods* you look like you could use a FISHING ROD!",
+	"*screaming* buy a fishing rod *continues screaming*",
+	"i don't care if you're broke, buy a fishing rod!",
+	"Longer fishing rod times give you a discount! HOORAY!",
+	"This pond has some spooky stuff inside of it.",
+	"GOBBLE GOBBLE!",
+	"&osoon may the wellerman come, to bring us sugar and tea and rum&f. Oh, sorry, a nice tune I learned at sea is stuck in my head!",
+	"I used to be a pirate, then I fell off my boat and became a salesman! Stealing isn't really my thing anyway.",
+	"One time I saw a huge sea monster! I got really jealous.",
+	"Have you talked to anyone with an tentacle beard recently? I haven't seen Davy in forever!",
+	"The contamination of the water is probably just litter.",
+	"If you offer the Big Bass, I'll drop my prices by a whole 15%! What a steal!",
+	"I've never left my pirate ways, just like how I've never seen a movie and paid.",
+	"&opsst- hey, kid, if your fishing rod ever breaks, I also sell duct tape..."
+}
+
+npc_challenges: {
+	"I have some challenges for you!",
+	"Hey, do you have some time to do some chores?",
+	"Keeping a daily routine can be healthy for the mind!",
+	"Here's a list of things I need you to do for me.",
+	"I'd do these myself but I'm a bit busy making a list for tomorrow.",
+	"I'll reward you greatly if you can do a few things for me.",
+	"Just a few things for today. Can ya get em done for me?",
+}
+npc_challenges_completed: {
+	"You did everything for today, thank you!",
+	"Thanks for all the help!",
+	"I'll have more for you tomorrow.",
+	"You want more? I don't have anything left for you to do!",
+	"You're done for today!",
+	"Looking back at your completed to-do list?",
+	"Take a break, you're done for today!"
+}
+
+npc_challenges_reroll: {
+	"Eh? Not good enough. Alright then.",
+	"Can't win 'em all, I guess.",
+	"Yeah. That one's a pain. I getcha.",
+	"If you say so.",
+	"Do you just like hearing what I have to say?",
+	"I have others for that one. No worries.",
+	"Someone else will do it, I'm sure.",
+	"It'll cost ya to get that removed."
+}
+
+# A person who wants to save all the survivors
+npc_akura: {
+	"Whispers in the night will tell you all you need to know.",
+	"We will come back for you. This prison isn't for you.",
+	"Remember, &4&kAkura&f will save you. Don't give up.",
+	"They don't keep people here for long.",
+	"You aren't safe here. We will set you free.",
+	"They are liars. We are the truth.",
+	"You won't die here, we won't let them kill you.",
+	"Stay away from those monsters. They want us dead.",
+	"Don't trust anyone. They are not your friends; they are your executioners.",
+	"You deserve a second chance, don't let them take it from you.",
+	"Don't be scared, we got your back.",
+	"There is hope for you, just trust us.",
+	"Keep calm, it'll all be worth it.",
+	"We can get you out. Soon.",
+}
+
+npc_akura_shop: {
+	"I've got supplies to help you.",
+	"Get what you need.",
+	"The night will be of great fortune.",
+	"I'll use the resources to get you better items.",
+	"These will keep you be safe.",
+	"A parting gift from me.",
+	"Keep it hidden, don't let them know you have it.",
+	"Anything you need, I'm willing to sell.",
+	"We've smuggled some new items in for you.",
+	"The flowers just blossomed!"
+}
+
+# The Plague in a "physical" form.
+# written when i was in a really dark place.
+# The monster is simply a hallucination and embodiment of your darkest thoughts.
+npc_demon: {
+	"What are you hiding? You have nothing left.",
+	"You are the real monster.",
+	"You will all be dead by next year.",
+	"You are powerless.",
+	"Nobody is here to save you.",
+	"You've done this to yourself.", 
+	"Who's the real monster here?",
+	"There is nothing to live for, you are a burden on them.",
+	"Give up, you have gone far enough.",
+	"What's the matter? Too scared to die?",
+	"Weaklings like you are the reason we are all here.",
+	"This is simply a game of cat and mouse, and you are all mice.",
+	"Look at yourself. What even are you, really?",
+	"They should've killed you when they had the chance. Too bad they took pity on you.",
+	"Do you know where survivors go after they escape? Back to the tree. There was never an escape.",
+	"What hope they had, its going to be gone soon.",
+	"Let them do what they want, you can't fight it.",
+	"The ground has been poisoned with your misdeeds.",
+	"Is your life even worth living? Some would say you're too far gone.",
+	"Can someone like you really be redeemed?",
+	"You are the reason we are not okay. You are the reason this Plague is spreading.",
+	"Do you even know what The Plague is?",
+	"Is it any wonder we're all broken?",
+	"Heartless.",
+	"Don't lie to me, I won't lie to you.",
+	"There is no escape. Might as well scream for your final moments. There is nothing left to live for.",
+	"If only you had the guts to escape. You would be out of here already.",
+	"Don't worry about going to hell. You're already here.",
+	"Remember what you did? All those people you hurt? Could you imagine who they think you are?",
+	"It's hard to complain when my existence is because of you.",
+	"When the night fades, you'll remember why you couldn't sleep.",
+	"Things look bad now, just wait until later. I'll show you real chaos.",
+	"Die a hero or live long enough to become the villian. Lucky you, you lived too long.",
+}
+
+# Exterminator Crescent. of the C.C.C.'s Dark Command team.
+npc_crescent: {
+	"Welcome. Don't make too much of a mess now.",
+	"I can tell you're looking at my armor. Rest assured, you're safe here.",
+	"I've seen what the CCC is actually doing. They're not trying to cure anything.",
+	"The CCC just wants to control The Plague. Nothing more.",
+	"Down there is your escape path, if push comes to shove. You'd best familiarize yourself with it.",
+	"This outpost is your safe spot. They won't try anything here.",
+	"I'm studying the Fragments and Portals. You wanna know why? Did &kAkura&f give you that key?",
+	"Are you going out? Be careful.",
+	"That armor over there? It belongs to me.",
+	"The fish are real. Please feed them if something ever happens to me."
+}
+
+npc_jkerm_interact: "&aOnly authorized officials are allowed to talk to Site Directors.\n&4You appear to have made an error in your judgement."
+
+npc_jkerm: {
+	"Security!",
+	"Hey! Security!",
+	"I need security immediately!",
+	"We need security to get this person out of here!",
+}
+
+# Killer addons
+addon_no_funds: "&cInsufficent funds! Addon &e$1&c was removed from your kit."
+addon_too_low_level: "&cYour killer needs to be &eLevel $1&c to use this augment!"
+# Killer abilities
+ability_cooldown: "&cAbility is on cooldown for $1 seconds!"
+
+scrubber_set_trap: "&aTrap set! &7($1/$2)"
+scrubber_out_of_traps: "&cNo more traps can be set."
+scrubber_activated: "&a&lA trap has been set off!"
+scrubber_cant_place_trap: "&cYou can't place a trap there!"
+
+hunter_reloading: "&aReloading... &7($1)"
+hunter_reload_complete: "&aYour weapon has reloaded."
+hunter_ammo_actionbar: "&8(&e$1&8/&7$2&8)"
+hunter_reload_hint: "&aPress the &eSwap Hands&a key to reload."
+hunter_reload_hint_bedrock: "&aPress the &eDrop&a key to reload."
+
+cloaker_cloak: "&aYou are now invisible!"
+cloaker_uncloak: "&aYou can now be seen."
+cloaker_set_ambush: "&aAmbush Set! &7($1 left)"
+cloaker_ambush_alarm: "&aAn ambush has been triggered! Press &eSwap Hands&a to teleport to it!"
+cloaker_not_charged: "&cNot Charged."
+cloaker_charging: "&aCharging... &7($1)"
+cloaker_charged: "&aCharged!"
+cloaker_uncharged: "&cAbility uncharged."
+cloaker_uncharged_failed: "&cNot used in time. Ability uncharged."
+cloaker_failed_knockdown: "&cFailed to knockdown survivor."
+cloaker_charge_cancelled: "&cCharge cancelled."
+
+warper_hit_block: "&cThere is a block in the way!"
+warper_charges: "&8(&e$1&8/&7$2&8)"
+warper_recharge: "&aRecharging... &7($1)"
+warper_recharged: "&aRecharged!"
+warper_recharge_hint: "&aPress the &eSwap Hands&a key to recharge."
+
+necromancer_summoned: "&aSummoned &e$1&a! &7($2/$3)"
+necromancer_out_of_reach: "&cCannot summon! That location is too far away!"
+necromancer_minion_died: "&cMinion &e$1&c has perished."
+necromancer_minion_killed: "&cMinion &e$1&c has been destroyed!"
+necromancer_killer_minion_killed: "&cYou destroyed &e$1&c!"
+necromancer_recall: "&aYou recalled your oldest minion, &e$1&a!"
+necromancer_no_minions: "&cYou have no minions to recall!"
+
+# Discord
+discord_verified: "&9&lDiscord&b You are now verified with Discord account &e$1&b!"
+
+# Challenges/Achievements
+daily_display: "&d$1&a: &$2"
+daily_completed: "&aYou completed a daily challenge! Do &e/daily&a to claim your rewards!"
+daily_completed_all: "&aYou've completed all of your daily challenges for today!"
+reroll_daily: "&aYou've chosen to reroll for &bFree&a!"
+reroll_daily_cost: "&aYou've chosen to reroll for &b$1 Souls&a!"
+
+challenges_new_day: "&aYou have new daily challenges for today!"
+
+achievement_completed: "&aYou obtained the &d$1&a achievement!"
+achievement_completed_broadcast: "&e$2&a obtained the &d$1&a achievement!"
+
+set_preferred: "&aYou will now get $1 &amore often."
+
+# Scoreboard
+sb_title: "&9Deadlight &av$1"
+sb_prestige: "&dPrestige $1"
+sb_max_prestige: "&dMaster Prestige"
+sb_level: "&dLv. $1 &e$2%"
+
+sb_queue_status: "&a&lQueue Status"
+
+sb_blood: "&7Blood &e$1"
+sb_souls: "&7Souls &e$1"
+
+sb_stats_escapes: "&7Escapes &e$1"
+sb_stats_kills: "&7Kills &e$1"
+
+sb_ip: "&7Deadlight.minehut.gg"

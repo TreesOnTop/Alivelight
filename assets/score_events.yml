@@ -1,0 +1,149 @@
+blood:
+    prestige:
+        amount: 100000
+        name: Prestiged
+    out_of_time:
+        amount: 300
+        name: Out of Time
+    starter_blood:
+        amount: 50000
+        name: Starter Blood
+    # Killer
+    hit:
+        amount: 100
+        name: Hit
+        silent: true
+    kill:
+        amount: 1000
+        name: Survivor Killed
+    kill_obsession:
+        amount: 500
+        name: Obsession Dead
+    kill_end_game:
+        amount: 500
+        name: Last Chance Kill
+    kill_collapse:
+        amount: 900
+        name: Collapse Kill
+    gen_sabotage:
+        amount: 250
+        name: Sabotaged Objective
+    nobody_escapes_death:
+        amount: 1000
+        name: No One Escapes Death
+    no_gens_done:
+        amount: 1000
+        name: No Objectives Completed
+    soul_expired:
+        amount: 500
+        name: Soul Expired
+    soul_destroyed:
+        amount: 500
+        name: Soul Destroyed
+    flower_destroyed:
+        amount: 300
+        name: Flower Destroyed
+    flower_save:
+        amount: 450
+        name: Savior
+    # Survivor
+    boldness:
+        amount: 5
+        name: Boldness
+    distraction:
+        amount: 5
+        name: Distraction
+    gen_complete:
+        amount: 350
+        name: Survived
+    escaped:
+        amount: 1000
+        name: Escaped
+    escaped_obsession:
+        amount: 1500
+        name: Obsession Escaped
+    obsession_dead:
+        amount: 300
+        name: Obsession Dead
+    portals_opened:
+        amount: 500
+        name: Portals Opened
+    untouchable:
+        amount: 1000
+        name: Untouchable
+    protection_hit:
+        amount: 250
+        name: Protection Hit
+    healed:
+        amount: 500
+        name: Healed Survivor
+    obsession_healed:
+        amount: 600
+        name: Healed Obsession
+    pickup_soul:
+        amount: 500
+        name: Soul Pick Up
+    placed_soul:
+        amount: 250
+        name: Soul Placed
+    survivor_disconnected:
+        amount: 250
+        name: Abandoned
+    survivor_forfeit:
+        amount: 250
+        name: Survivor Forfeit
+    killer_disconnected:
+        amount: 250
+        name: Killer Forfeit
+    stunned:
+        amount: 200
+        name: Stunned
+    scrubber_trap_activated:
+        amount: 150
+        name: Trap Activated
+    hunter_hit:
+        amount: 250
+        name: Survivor Hit
+    cloaker_knocked:
+        amount: 250
+        name: Knocked
+    cloaker_ambushed:
+        amount: 250
+        name: Ambushed
+    knocked_pickup:
+        amount: 200
+        name: Picked Up
+    warper_warp_hit:
+        amount: 250
+        name: Warp Hit
+    jacko_horse_destroy:
+        amount: 250
+        name: Destroyed Steed
+    necromancer_destroy_minion:
+        amount: 250
+        name: Destroyed Minion
+    necromancer_minion_hit:
+        amount: 200
+        name: Survivor Hit
+souls:
+    login:
+        amount: 1
+        name: Login Bonus
+    destroyed:
+        amount: 1
+        name: Destroyed Soul
+    obsession_escaped:
+        amount: 1
+        name: Escaped Soul
+    obsession_killed:
+        amount: 1
+        name: Destroyed Soul
+    prestige: 
+        amount: 1000
+        name: Prestige Reward
+    challenge_completed:
+        amount: 30
+        name: Daily Challenge Reward
+    all_challenges_completed:
+        amount: 10
+        name: All Challenges Completed Bonus

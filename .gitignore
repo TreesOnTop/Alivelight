@@ -1,0 +1,6 @@
+# Ignore Eclipse files.
+*.classpath
+*.project
+/.idea/
+/.settings/
+/bin/

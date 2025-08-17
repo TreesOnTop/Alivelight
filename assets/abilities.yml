@@ -1,0 +1,502 @@
+killer types:
+  scrubber:
+    difficulty: easy
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIwNzZiNTRkMmFjOGRmNjVmODg4N2I0MTRhMjYzOGExZWJjMzU5MjA5Y2U1NWZmODcyZjYwYmQyZDA0YTU3MiJ9fX0=
+    color: '#FEFE3F'
+    description: |
+        Like rats, those infected by the Plague spread quickly.
+        They must be contained. The goal of the Scrubber is to
+        ensure that the Plague is cornered, captured, and
+        disposed of. Scrubbers excel at controlling areas,
+        and leading the Infected into their palms. This ability
+        requires foresight and planning, as you will be
+        controlling the map and catching survivors with your traps.
+    ability: |
+        Place down traps to stun survivors.
+        
+        Max Traps: 5
+        Terror Radius: 24m
+        Movement Speed: 100%
+    skins:
+        DARK_COMMAND:
+            name: Dark Command
+            head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZlMTRhZjJkZmRhNDA2OTk3OTFmNjEzYWEyMzk2N2UyNjFlODliNDJhYmE4MWJmMGRhNDhmZWJlNDJiZjBkZCJ9fX0=
+            armor: NETHERITE
+            requirement: 50
+            extra: |
+                Walter W. Wilson, of the Dark Command.
+                One of, if not our most elite exterminations experts.
+                His skills at cooking up an expert formula for erasing
+                the Plague menace are second to none. If Death isn't the
+                one who knocks, he is.
+    addons:
+        cyanide_pellets:
+            name: Cyanide Pellets
+            desc: '+ Half heart of damage when triggered\n- Traps no longer apply Infection'
+            rarity: ULTRA
+        glow_dust:
+            name: Glow Dust
+            desc: '+ Survivors glow for 5 seconds when traps are triggered.'
+            rarity: RARE
+        shrapnel:
+            name: Shrapnel
+            desc: '+ Traps apply Mangled for 30 seconds when triggered\n+ Resets any healing progress when triggered'
+            rarity: RARE
+        trigger_finger:
+            name: Trigger Finger
+            desc: '+ Sneaking no longer prevents traps from triggering\n- Decreases trigger radius by 1 block'
+            rarity: RARE
+        bloody_janitor_bag:
+            name: Bloody Janitor Bag
+            desc: '+ Increases max traps by 2\n- Decrease trigger and effect radius by 1 block'
+            rarity: RARE
+        double_dose:
+            name: Double Dose
+            desc: '+ Infection lasts 5 seconds longer'
+            rarity: COMMON
+        good_springs:
+            name: Tight Springs
+            desc: '+ Increases trigger radius by 1 block'
+            rarity: COMMON
+        loose_springs:
+            name: Loose Springs
+            desc: '+ Increases effect radius by 1 block'
+            rarity: COMMON
+        janitor_bag:
+            name: Janitor Bag
+            desc: '+ Increases max traps by 1'
+            rarity: COMMON
+        camo_paint:
+            name: Camoflague Paint
+            desc: '+ Traps become darker'
+            rarity: COMMON
+  hunter:
+    difficulty: medium
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTEyZWM5NDAxNTRlMmQ5Njk3ZmUyY2E3ZWQ3ZDhmYjkyMjM0NjE5NGFlODhjZDM3NTg3ZjcyMDJjZmI2NzBhMCJ9fX0=
+    color: '#FEFEFE'
+    description: |
+        Hunting down the Infected is a top priority
+        for any exterminator. Quite a few exterminators
+        take a more direct approach to assaulting the Plague.
+        Hunters excel at tracking, chasing, and setting up
+        around the Infected to send hot lead through their skulls.
+        This ability requires good chasing, aim, and timing in order
+        to track down and eliminate survivors with your gun.
+    ability: |
+        Shoot survivors to damage a health state.
+        Press Swap Hands to reload your weapon.
+        
+        Max Ammo: 6
+        Terror Radius: 32m
+        Movement Speed: 100%
+    skins:
+        DARK_COMMAND:
+            name: Dark Command
+            head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRjM2JmY2MyZjZkMTVmZTM2YTQ5NDc1M2E4Y2M3OTYyYTc5NTgyZmU0ZWI3MTBkMmI0YThkOGM1OTVkODZmIn19fQ==
+            armor: NETHERITE
+            requirement: 50
+            extra: |
+                Agent Woods is our best marksmen, by far.
+                There's a reason why he was chosen for
+                the Dark Command: It was fabled that he dealt
+                the fatal headshot that killed an old soviet leader
+                from 3,602m away during his time with the Marines.
+                It's said that if he ever missed you, you'd best
+                buy a lottery ticket.
+    addons:
+        50cal:
+            name: .50 AE
+            desc: '+ Fire Particle trail\n+ Increases damage by 100%\n- Decreases Rate Of Fire by 150%\n- Recoil\n- Increases hit cooldown for 3 seconds after successful shot\n- Reduces ammo by 1'
+            rarity: ULTRA
+        ricochet:
+            name: Ricochet
+            desc: '+ Shooting a survivor also hits the nearest survivor within 4m'
+            rarity: RARE
+        extra_ammo:
+            name: Extended Mags
+            desc: '+ Increase max ammo by 2\n- Increase reload time by 1 second'
+            rarity: RARE
+        hollow_point:
+            name: Hollow Point
+            desc: '+ First bullet in clip deals Mangled for 30 seconds\n+ First bullet in clip deals Hemorrhage for 30 seconds\n- Increases reload time by 0.5 seconds'
+            rarity: RARE
+        quick_cylinder:
+            name: Quick Cylinder
+            desc: '+ Tremendously increases Rate Of Fire'
+            rarity: RARE
+        flare:
+            name: Flare
+            desc: '+ Shooting survivors makes them glow for 5 seconds'
+            rarity: RARE
+        rusty_bullets:
+            name: Rusty Bullets
+            desc: '+ Shooting survivors now applies Infected for 5 seconds'
+            rarity: RARE
+        heavy_impact:
+            name: Heavy Impact
+            desc: '+ Shooting survivors deals knockback'
+            rarity: COMMON
+        quick_hand:
+            name: Sleight of Hand
+            desc: '+ Decreases reload time by 1 second'
+            rarity: COMMON
+        longer_range:
+            name: Long Barrel
+            desc: '+ Increase range by 16m\n- Slight Recoil'
+            rarity: COMMON
+        supressor:
+            name: Supressor
+            desc: '+ Supresses sound'
+            rarity: COMMON
+  cloaker:
+    difficulty: hard
+    # eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMxNTFhN2RhZTkwM2FlNDdhZWY2MzdmMTBkNWU1N2ZlNzNmYTkyMzNiYzQ2N2I0ODUzYzdlMWJjZWFhOTVjZSJ9fX0=
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjE5NjUxNzgyOTE5MmFkZTU2OWFjNTdmY2NhMGNlNmYwM2VlMTAxOWI0ODc0M2RkMDU0YjhjYWJkNDkwNGIyNyJ9fX0=
+    color: '#000000'
+    description: |
+        One of the best ways predators attack is through stealth.
+        Evolutionarily, stealth is the pinnacle of assault, and using it
+        to destroy the Plague is nothing short of a good strategy.
+        Cloakers specialize in catching targets by suprise, and timing
+        their invisibility well for a critical ambush.
+    ability: |
+        Right-click the dust to toggle your cloak.
+        
+        While cloaked, you are completely invisible.
+        Your heartbeat is silenced, and your movement
+        speed is also increased. 
+        
+        Cooldown: 5 seconds
+        Terror Radius: 16m
+        Movement Speed: 100%
+    skins:
+        DARK_COMMAND:
+            name: Dark Command
+            # eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgwZTZjZDQ1OWEwOGViZGU5OTVlMDE5Y2FkYWM1NWQwNjA2ZjQ3ZTY0NTUxOWI4YTQwNzMxYmIzZTZiMTY3MCJ9fX0=
+            head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlkYmJhYmQ3ZDI5ZGE3NWU3YmU0MWJjYWI4OGI4ZDAxMjI3YzNkZGM4NDgzNDFjMTYxMmVmYTM0ZDM5MjA0In19fQ==
+            armor: NETHERITE
+            requirement: 50
+            extra: |
+                An incident long ago details the acceptance of 
+                Agent Janice G. Park into the Dark Command.
+                One day, at the table of the CCC's board meeting,
+                in a building more tight than Fort Knox, she introduced
+                herself. Even with the top-of-the-line security systems,
+                she managed to suddenly appear behind the Director, and
+                politely asked for a raise. If you think you've escaped,
+                ALWAYS, check your back.
+    addons:
+        ash_mix:
+            name: Mixed with Ashes
+            desc: '+ Hitting players while cloaked does knockback'
+            rarity: ULTRA
+        plague_mix:
+            name: Mixed with Plague Dust
+            desc: '+ Hitting players while cloaked infects them\n- Uncloak immediately after infecting players'
+            rarity: RARE
+        silent_sabotage:
+            name: Silent Sabotage
+            desc: '+ Sabotaging a fragment while Cloaked reveals\n&asurvivors within 5m of any fragment'
+            rarity: RARE
+        silent_shock:
+            name: Silent Shock
+            desc: '+ Uncloaking makes nearby survivors glow for 2 seconds'
+            rarity: RARE
+        in_the_dark:
+            name: In the Dark
+            desc: '+ Particles while cloaked no longer appear\n+ While cloaked, sabotaging blocks fragments for 5 seconds\n- Slightly increases uncloak hit cooldown.'
+            rarity: RARE
+        silencer:
+            name: Silencer
+            desc: '+ Increases Undetectable after uncloak by 5 seconds.'
+            rarity: COMMON
+        extra_speed:
+            name: Disappear with Haste Dust
+            desc: '+ Increases speed while cloaked'
+            rarity: COMMON
+        speed_dust:
+            name: Appear with Haste Dust
+            desc: '+ Removes the Slowness after uncloaking'
+            rarity: COMMON
+  warper:
+    difficulty: medium
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk2NTE2MGJiZjJmMTNhOTljNjkyZjc2ZDEyYmUxOWQ3ZGVlMGU0YTJhZDc0YTgzZTYzZTFmODM4MThmZGExZiJ9fX0
+    color: '#5D6468'
+    description: |
+        Warpers are entirely experimental with it's
+        bulky shock-resistent armor. It could collide with anything
+        and still get up without a scratch. The Warp Star is a prized
+        possesion, as it makes up for the bulk, allowing you to launch
+        yourself where you need to be. We might have turned the dial
+        too high...
+    ability: |
+        Left click to launch into the air.
+        Right click to warp to target location.
+        Press Swap Hands to recharge.
+        
+        Cooldown: 3 seconds (Half for Air Launch)
+        Terror Radius: 24m
+        Movement Speed: 90%
+    skins:
+        DARK_COMMAND:
+            name: Dark Command
+            head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ1OGFkMTlmMmUyMjJmMjlhNmQyOTIzODY2ZTkzOGM3Y2NmMzgyMWI1NmE4MWFhNzQzNTc4Njk1M2NhMjNmYyJ9fX0=
+            armor: NETHERITE
+            requirement: 50
+            extra: |
+                It is almost impossible to meet a man who can be
+                everywhere at once, but it is no task of note for
+                him to meet you.
+                Agent Kenny N-Hawk of the Dark Command has a record of
+                EPWI's (Execution Protocols Without Incident), meaning
+                that he, allegedly, has the largest success ratio of any
+                Exterminator TO DATE. He will spend hours casing an area
+                just so he can control every last move of his prey.
+                No corner will EVER be safe.
+#                Agent Kenny N-Hawk of the Dark Command is the engineer
+#                of our armor suits. Crafted from impact resistant armor,
+#                his own armor can resist forces most would be crushed from.
+    addons:
+        radium_infused:
+            name: Radium Infused Core
+            desc: '+ Increases range by 16 meters\n+ Long range (20m+) warps infect survivors for 20 seconds\n- Long range (20m+) warps apply Slowness II\n- Long range (20m+) warps increase cooldown by 0.5 seconds'
+            rarity: ULTRA
+        power_cell:
+            name: Power Cell
+            desc: '+ Increases max charges by 2\n- Increases recharge time by 2 seconds\n- Increases cooldown time by 0.5 seconds'
+            rarity: RARE
+        lightweight_steel:
+            name: Lightweight Steel
+            desc: '+ Increases launch speed by 100%\n+ Increases Warp Range by 8 meters.'
+            rarity: RARE
+        time_and_space:
+            name: Time and Space
+            desc: '+ After performing a warp, you become Undetectable for 3 seconds.'
+            rarity: RARE
+        rechargable:
+            name: Rechargeable Batteries
+            desc: '+ Movement is unhindered while recharging'
+            rarity: COMMON
+        thrusters:
+            name: Thrusters
+            desc: '+ Performing a launch gives you Slow Falling for 3 seconds'
+            rarity: COMMON
+        override:
+            name: System Override
+            desc: '+ Reduces noise of warp sound effect.'
+            rarity: COMMON
+        alkaline:
+            name: Alkaline Batteries
+            desc: '+ Decreases recharge time by 2 seconds'
+            rarity: COMMON
+        batteries:
+            name: Backup Batteries
+            desc: '+ Increases max charges by 1\n- Decreases range by 8m\n- Increases recharge time by 1 second'
+            rarity: COMMON
+        lazer:
+            name: Lazer Pointer
+            desc: '+ Visual marker for teleport location'
+            rarity: COMMON
+  jack:
+    difficulty: hard
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2M4NjZlNDIzOTU1MTQyOGY5YzgxNGQ5ZGMxMWU3MDAyZTA0M2I4N2Y1OTBmMWZkY2I0ZmY2YmI0OTdiOGUxOCJ9fX0=
+    color: '#000000'
+    description: |
+        While a calculated exterminator may be wanted, Jack
+        isn't one of them. Jack's manic approach can get the
+        job done, with a little more fun than the directors
+        are comfortable with.
+    ability: |
+        Right-click to summon your Steed.
+        
+        Cooldown: 10 seconds
+        Terror Radius: 24m (While Riding: 32m)
+        Movement Speed: 100%
+    skins:
+        DARK_COMMAND:
+            name: Dark Command
+            head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2IzMGYyYzg4ODYzZjE0ZTY0OGVlZDNiNmRmNzhhZjUyYmM3Yzg0ZjZmYzdiZjQwMGYzMDQzYTY5NjQ4MzA5OSJ9fX0=
+            armor: NETHERITE
+            requirement: 50
+            extra: |
+                Jack Oliver was not originally the type to
+                cause hundreds in damages per extermination.
+                See, Jack was once an official operative here
+                at the CCC, fitted with a rank and all. One day
+                upon returning to HQ, it was discovered that a
+                tumor made from the Plague was growing inside of
+                his head. We were too late to completely stop the
+                Plague's influence, and the tumor left his face scarred. 
+                He started wearing a mask made of a pumpkin. Poor man.
+    addons:
+        lunatic:
+            name: Horseman of the Apocolypse
+            desc: '+ Hitting survivors while riding applies Infected for 10 seconds.\n- You cannot damage survivors on your Steed.'
+            rarity: ULTRA
+        horse_hunter:
+            name: Horse Hunter
+            desc: '+ Track survivors audibly within 32m'
+            rarity: RARE
+        noble_steed:
+            name: The Noble Steed
+            desc: '+ Increases Steed speed by 50%\n+ Increases Steed jump height by 25%'
+            rarity: RARE
+        engraved_armor:
+            name: Engraved Horse Armor
+            desc: '+ Your Steed can no longer be hit.\n- Reduces Steed speed by 25%'
+            rarity: RARE
+        conquest:
+            name: Conquest
+            desc: '+ Decreases Dark Steed cooldown by 5 seconds.'
+            rarity: COMMON
+        padded_horse_shoe:
+            name: Padded Horse Shoes
+            desc: '+ Reduces Terror Radius while riding by 8m'
+            rarity: COMMON
+        horse_muzzle:
+            name: Horse Muzzle
+            desc: '+ Silences your Steed'
+            rarity: COMMON
+  visitor:
+    difficulty: hard
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBlMmIyZTY5N2YzYzFiN2EyNDY0ZWUyMWNiNGJmNGQ1MWQ2OGZjZTFiMzkwNzNhZmEyZmEwNDNmN2Y4OSJ9fX0=
+    color: '#EF0000'
+    description: |
+        The Visitor is an anomaly created by the Plague.
+        It's exact motive is unclear, but C.C.C. see it as
+        a useful asset.
+    ability: |
+        Neutral Mode: You are a normal killer, other than
+        having a 16m terror radius.
+        
+        Seeking Mode: Your terror radius expands to 32m.
+        You become completely blind, and the nearest
+        survivor emits a noise with a 32m range.
+        While in this mode, you can Visit (Right Click)
+        a glowing fragment to teleport to it.
+        
+        Cooldown: 20 seconds (Visiting)
+        Terror Radius: 24/32m (Normal/Seeking)
+        Movement Speed: 100%
+    skins:
+        DARK_COMMAND:
+            name: Dark Command
+            head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBhYzkwNzcxNzM5MzU4MDVhMzc5OTAzYmQ1OGQxMjc0NGViNDQyNjcwYmE5ZTAwNDMzMTI4ZDFjZDUyNjA5ZSJ9fX0=
+            armor: NETHERITE
+            requirement: 50
+            extra: |
+                The Plague has created something truly unnerving.
+                Although its body is humanoid, the Visitor has makeup
+                consistency of a teratoma- misplaced ears, mouths, eyes
+                and organs. During a test, the DNA collected from The Visitor
+                came from multiple different sources. Human sources.
+                We will be promoting this unit to the Dark Command to keep a
+                close eye on The Plague. This doesn't bode well for humanity.
+        DECAYED:
+            name: Decayed
+            head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDgyOTYyMDFhYzRiMDk5MGQ3OGUzNjIyODU3ZTRhYzQ3MDUwNGIwYWUwNjAyM2YyODI5ZmU1ZjBlNTVlZDIxYiJ9fX0=
+            armor: LEATHER
+    addons:
+        manifest:
+            name: The Plague's Manifest
+            desc: '+ Removes Blindness while Seeking\n- Removes Speed increase while Seeking'
+            rarity: ULTRA
+        hivemind:
+            name: The Plague's Hivemind
+            desc: '+ Visiting a nearby fragment infects nearby survivors\n+ Blocks the fragment you Visited for 5 seconds.\n+ Increases teleport distance by 16m\n- Increases Visiting cooldown by 10 seconds.'
+            rarity: ULTRA
+        f_strain:
+            name: F-Strain
+            desc: '+ Any visited fragments will be automatically sabotaged.'
+            rarity: RARE
+        intruder:
+            name: Intruder
+            desc: '+ Removes Sound Effect from Visiting\n+ Decreases terror radius by 8m while Seeking'
+            rarity: RARE
+        eye_of_fear:
+            name: Eye of Fear
+            desc: '+ Removes Blindness after Visiting'
+            rarity: COMMON
+        eye_of_recharge:
+            name: Eye of Recharge
+            desc: '+ Reduces Visiting cooldown by 5 seconds'
+            rarity: COMMON
+        eye_of_sorrow:
+            name: Eye of Sorrow
+            desc: '+ Increases Seeking audio range by 24m'
+            rarity: COMMON
+  necromancer:
+    difficulty: medium
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk4ZDY1MTMwZmEyOWYzNzAzOTVkNjQ2NDMzYTljNzEwNGY0ZjkwODg0YWRlMzAzYWVmYmM0MjBlZGVmMjA1ZCJ9fX0=
+    color: '#1f2f3f'
+    description: |
+        The Necromancer is known for working in mysterious ways.
+        While still considered human, a Necromancer can
+        manifest monsters from the Plague and use them
+        against diseased. These manifestations
+        are unearthly, and seem to be controlled
+        from outside sources.
+    ability: |
+        Right-click to summon a Minion.
+        Press Swap Hands to recall your oldest minion
+        from anywhere, or destroy a specific minion if you
+        are nearby.
+        
+        Terror Radius: 24m
+        Movement Speed: 100%
+    skins:
+        DARK_COMMAND:
+            name: Dark Command
+            head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ2NjE2MGQwNTcyMjk1MzEwZmVlOGU2YTM5ZDVhYjhhZjUzNGEyZTcxYTY2NjgwMWRmNWMwNzgwODIxMDVjNSJ9fX0=
+            armor: NETHERITE
+            requirement: 50
+            extra: |
+                Tal'ah is our 'Ace-in-the-hole' against The Plague,
+                given her weird, uncanny ability to control it to some degree.
+                We were curious when The Visitor was one day accompanied by
+                a small friend, to which Agent Woods comedically remarked as
+                'Little Barry', who was then followed by none other than
+                Tal'ah the witch, who demonstrated her uncanny ability to
+                create plague minions who have never been known to
+                leave their prey alive.
+    addons:
+        summoner_scythe:
+            name: The Summoner's Scythe
+            desc: '+ Nearby Minions will explode within a 3 block radius\n+ Area of effect damage\n- Decreases Minion movement speed'
+            rarity: ULTRA
+        plague_minion:
+            name: Plague Minion
+            desc: '+ Minions apply Infected for 10 seconds\n+ Minions apply Slowness I for 5 seconds\n- Minions no longer deal damage'
+            rarity: ULTRA
+        dipped_blade:
+            name: Dipped Blade
+            desc: '+ Press Swap Hands to teleport to your oldest Minion\n- You can no longer recall Minions\n- 20 second cooldown'
+            rarity: RARE
+        crimson:
+            name: Crimson Armor
+            desc: '+ Minions take an extra hit to be destroyed.\n- Decreases Minion movement speed'
+            rarity: RARE
+        syphon:
+            name: Syphon
+            desc: '+ Hitting a minion speeds you up for 5 seconds'
+            rarity: RARE
+        sharded_glass:
+            name: Sharded Glass
+            desc: '+ Minions apply Mangled for 30 seconds'
+            rarity: RARE
+        speed_scythe:
+            name: Quick Scythe
+            desc: '+ Decreases summon cooldown by 1 second'
+            rarity: COMMON
+        engraved_blade:
+            name: Engraved Blade
+            desc: '+ Increases summon throw speed by 50%'
+            rarity: COMMON
+        spring_boots:
+            name: Spring Boots
+            desc: '+ Increase minion jump height'
+            rarity: COMMON
+        critters:
+            name: Critters
+            desc: '+ Increases max minions by 1'
+            rarity: COMMON
